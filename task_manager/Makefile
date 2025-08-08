@@ -1,8 +1,7 @@
 CXX = g++
-CXXFLAGS = -Wall -Wextra -Iinclude
+CXXFLAGS = -Wall -Wextra
 
 SRC_DIR = .
-INCLUDE_DIR = include
 BUILD_DIR = build
 BIN_DIR = bin
 SRC = $(wildcard $(SRC_DIR)/*.cpp)
